@@ -1,7 +1,7 @@
 [{
     "displayText": "cloudfront.can_paginate",
     "snippet": "Start typing to replace ${1:this text}.",
-    "description": "Check if an operation can be paginated.<\\ br>: type operation_name: string\\n: param operation_name: The operation name.This is the same name \n as the method name on the client.For example, if the \n method name is create_foo, and you 'd normally invoke the\n operation as client.create_foo( ** kwargs), if the \n create_foo operation can be paginated, you can use the \n call client.get_paginator('create_foo').",
+    "description": "Check if an operation can be paginated.\n\n\t: type operation_name: string\n\t: param operation_name: The operation name.  This is the same name as the method name on the client.  For example, if the method name is create_foo, and you'd normally invoke the operation as client.create_foo( ** kwargs), if the create_foo operation can be paginated, you can use the call client.get_paginator('create_foo').",
     "type": "function"
   },
   {
