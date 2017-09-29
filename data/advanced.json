@@ -1,22 +1,22 @@
-[
-	{
-		"displayText": "@snippet1",
-		"snippet": "Start typing to replace ${1:this text}.",
-		"description": "A simple snippet."
-	},
-	{
-		"displayText": "@snippet2",
-		"snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
-		"description": "Another snippet."
-	},
-	{
-		"displayText": "@snippet3",
-		"snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
-		"description": "Yet another snippet."
-	},
-	{
-		"displayText": "@snippet4",
-		"snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
-		"description": "Final snippet."
-	}
+[{
+    "displayText": "cloudfront.can_paginate",
+    "snippet": "Start typing to replace ${1:this text}.",
+    "description": "Check if an operation can be paginated.\n: type operation_name: string\n: param operation_name: The operation name.This is the same name \n as the method name on the client.For example, if the \n method name is create_foo, and you 'd normally invoke the\n operation as client.create_foo( ** kwargs), if the \n create_foo operation can be paginated, you can use the \n call client.get_paginator('create_foo').",
+    "type": "function"
+  },
+  {
+    "displayText": "@snippet2",
+    "snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
+    "description": "Another snippet."
+  },
+  {
+    "displayText": "@snippet3",
+    "snippet": "Start typing to replace ${1:multiple} ${1:text} ${1:simultaneously}. Then hit tab to ${2:do} ${2:it} ${2:again}.",
+    "description": "Yet another snippet."
+  },
+  {
+    "displayText": "@snippet4",
+    "snippet": "You don't need filler text for your prompts. Start typing: $1 (notice where the cursor is).",
+    "description": "Final snippet."
+  }
 ]
