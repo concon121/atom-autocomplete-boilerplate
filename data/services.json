@@ -1,5 +1,9 @@
 [{
-    "displayText": "cloudfront",
-    "snippet": "cloudfront",
-    "type": "variable"
-  }]
+  "displayText": "cloudfront",
+  "snippet": "cloudfront",
+  "type": "variable"
+}, {
+  "displayText": "cloudformation",
+  "snippet": "cloudformation",
+  "type": "variable"
+}]
