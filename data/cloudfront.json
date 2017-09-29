@@ -4,9 +4,9 @@
     "type": "function"
   },
   {
-    "displayText": "@snippet2",
-    "snippet": "Replace ${1:this text} then hit tab to replace ${2:this other text}.",
-    "description": "Another snippet."
+    "displayText": "create_cloud_front_origin_access_identity(**kwargs)",
+    "snippet": "create_cloud_front_origin_access_identity(${1:**kwargs})",
+    "type": "function"
   },
   {
     "displayText": "@snippet3",
