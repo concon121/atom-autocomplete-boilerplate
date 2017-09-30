@@ -1,4 +1,8 @@
 [{
+  "displayText": "acm",
+  "snippet": "acm",
+  "type": "variable"
+}, {
   "displayText": "cloudfront",
   "snippet": "cloudfront",
   "type": "variable"

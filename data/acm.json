@@ -1,0 +1,43 @@
+[{
+  "displayText": "add_tags_to_certificate(**kwargs)",
+  "snippet": "add_tags_to_certificate(CertificateArn='${1:string}', Tags=[{'Key': '${2:string}', 'Value': '${3:string}'}])",
+  "type": "function",
+  "description": "Adds one or more tags to an ACM Certificate. Tags are labels that you can use to identify and organize your AWS resources. Each tag consists of a key and an optional value . You specify the certificate on input by its Amazon Resource Name (ARN). You specify the tag by using a key-value pair.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.add_tags_to_certificate"
+}, {
+  "displayText": "can_paginate(operation_name)",
+  "snippet": "can_paginate(${1:operation_name})",
+  "type": "function",
+  "description": "Check if an operation can be paginated.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.can_paginate"
+}, {
+  "displayText": "delete_certificate(**kwargs)",
+  "snippet": "delete_certificate(CertificateArn='${1:string}')",
+  "type": "function",
+  "description": "Deletes an ACM Certificate and its associated private key. If this action succeeds, the certificate no longer appears in the list of ACM Certificates that can be displayed by calling the ListCertificates action or be retrieved by calling the GetCertificate action. The certificate will not be available for use by other AWS services.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.delete_certificate"
+}, {
+  "displayText": "describe_certificate(**kwargs)",
+  "snippet": "describe_certificate(CertificateArn='${1:string}')",
+  "type": "function",
+  "description": "Returns detailed metadata about the specified ACM Certificate.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.describe_certificate"
+}, {
+  "displayText": "generate_presigned_url(ClientMethod, Params=None, ExpiresIn=3600, HttpMethod=None)",
+  "snippet": "generate_presigned_url(${1:ClientMethod}, Params=${2:None}, ExpiresIn=${3:3600}, HttpMethod=${4:None})')",
+  "type": "function",
+  "description": "Generate a presigned url given a client, its method, and arguments",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.generate_presigned_url"
+}, {
+  "displayText": "get_certificate(**kwargs)",
+  "snippet": "get_certificate(CertificateArn='${1:string}')",
+  "type": "function",
+  "description": "Retrieves an ACM Certificate and certificate chain for the certificate specified by an ARN. The chain is an ordered list of certificates that contains the root certificate, intermediate certificates of subordinate CAs, and the ACM Certificate. The certificate and certificate chain are base64 encoded. If you want to decode the certificate chain to see the individual certificate fields, you can use OpenSSL.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.get_certificate"
+}, {
+  "displayText": "get_paginator(operation_name)",
+  "snippet": "get_paginator(${1:operation_name})",
+  "type": "function",
+  "description": "Create a paginator for an operation.",
+  "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.get_paginator"
+}]
