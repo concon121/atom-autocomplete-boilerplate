@@ -55,25 +55,19 @@
   "type": "function",
   "description": "Imports an SSL/TLS certificate into AWS Certificate Manager (ACM) to use with ACM's integrated AWS services.
   Parameters
-  CertificateArn(string) --The Amazon Resource Name(ARN) of an imported certificate to replace.To
-  import a new certificate, omit this field.
-  Certificate(bytes) --[REQUIRED] The certificate to
-  import.It must meet the following requirements:
+    CertificateArn(string) --The Amazon Resource Name(ARN) of an imported certificate to replace. To import a new certificate, omit this field.
+    Certificate(bytes) --[REQUIRED] The certificate to import.It must meet the following requirements:
 
-  -Must be PEM - encoded. -
-  Must contain a 1024 - bit or 2048 - bit RSA public key. -
-  Must be valid at the time of
-  import.You cannot
-  import a certificate before its validity period begins(the certificate 's NotBefore date) or after it expires (the certificate'
-    s NotAfter date).
+      - Must be PEM - encoded.
+      - Must contain a 1024 - bit or 2048 - bit RSA public key.
+      - Must be valid at the time of import. You cannot import a certificate before its validity period begins(the certificate 's NotBefore date) or after it expires (the certificate's NotAfter date).
 
-  PrivateKey(bytes) --[REQUIRED] The private key that matches the public key in the certificate.It must meet the following requirements:
+    PrivateKey(bytes) --[REQUIRED] The private key that matches the public key in the certificate.It must meet the following requirements:
 
-  -Must be PEM - encoded. -
-  Must be unencrypted.You cannot
-  import a private key that is protected by a password or passphrase.
+      - Must be PEM - encoded.
+      - Must be unencrypted. You cannot import a private key that is protected by a password or passphrase.
 
-  CertificateChain(bytes) --The certificate chain.It must be PEM - encoded.
+    CertificateChain(bytes) --The certificate chain.It must be PEM - encoded.
   ",
   "descriptionMoreURL": "https://boto3.readthedocs.io/en/latest/reference/services/acm.html#ACM.Client.import_certificate"
 }]
